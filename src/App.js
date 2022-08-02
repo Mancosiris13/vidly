@@ -1,12 +1,15 @@
 import React, { component } from 'react';
 import Movies from './components/movies';
 import './App.css';
+import Pagination from './components/common/pagination';
 
 function App() {
   return (
-    <main className="container">
-      <Movies />
-    </main>
+    <React.Fragment>
+      <main className="container">
+        <Movies />
+      </main>
+    </React.Fragment>
   );
 }
 
